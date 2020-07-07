@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700,800,900|Exo:100,200,300,400,500,600,700,800,900');
+
+header {
+    margin: 0;
+}
+body{
+    font-family:"Roboto"; 
+}
+
+#title{    background-color:#cf4358;
+color: #F8F7C3;
+
+    
+}
+
+h1{
+    
+
+    font-family: "Roboto-Black";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Roboto-Black";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1;
+    color:#4B2601;
+
+}
+h3{
+    font-family:"Roboto-Black"; 
+    color: #271601;
+}
+h3.new{
+    padding: 3% 0 4%;
+    color: #F8F7C3;
+    font-family:"Roboto-Black"; 
+    font-size: 3.5rem; 
+     line-height: 1;
+}
+h4{
+     color: #F8F7C3;
+    font-family:"Roboto"; 
+
+}
+p{
+    color:rgba(145, 90, 28, 0.856);
+}
+.extra{
+font-family: Exo-black;
+font-size: 2rem;
+color:rgba(145, 90, 28, 0.856);
+ line-height: 1;
+
+}
+.container-fluid{
+    padding: 3% 15%; 
+}
+
+
+/*---------------------------------------------------------Nav Bar style*/
+.navbar{
+    padding:0 0 4.5rem;
+
+}
+
+.nav-item{
+    padding: 0 19px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Roboto-light";
+}
+
+
+/*---------------------------------------------------------Buttons style*/
+.download{
+    margin: 5% 4% 5% 0;
+}
+/*---------------------------------------------------------Title image style*/
+.title-img{
+    width: 60%;
+    right: 30%;
+    
+    
+}
+/*----------------------------------------------------------Feature section----*/
+
+#feature{
+    padding: 8% 16%;
+}
+.feature-box{
+    padding: 5.5%;
+    text-align: center;
+
+}
+
+.ifa{
+    color:#ecc78ef1;
+    margin-bottom:1rem; 
+}
+
+.ifa:hover{
+    color:#cf4358;
+}
+
+/*-------------------------------------------Products--------*/
+#products{
+text-align: center;
+background-color:#ecc78ef1;
+color:#cf4358;
+}
+
+.products-img{
+
+    width: 50%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+
+.carousel-item{
+padding: 8% 16%;
+}
+
+/*--------------------------------------------Lyx-Logo-----------*/
+
+#lyx-logo{
+text-align: center;
+background-color:#ecc78ef1;
+}
+
+/*---cover text--*/
+#cover-text, #cover-text h2{
+  color:#DA0B0E;
+}
+
+#cover-text{
+  font-size: 100%;
+  font-family: Exo;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  text-align:center;
+  width:150px;
+  height:100px;
+  background-color: #FBF71C;
+  padding-top: 15px;
+  padding-right: 15px;
+    bottom: 40px;
+  left: 40px;
+  transform: rotate(25deg);
+  position: absolute;
+ color:#4B2601;
+}
+
+/*------------------------------------------------products-pricing-----*/
+
+#products-pricing{
+
+    padding:100px;
+    text-align: center;
+    background-color: hsla(351, 84%, 67%, 0.479);
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/*---------------------------------------------------newsletter----------*/
+#newsletter{
+
+background-color:#cf4358;
+color:#f8f8f8;
+padding: 8% 16%;
+text-align: center;
+
+}
+.newsletter-block {
+    background-color: #7c7c7c;
+}
+
+.newsletter-title h2 {
+    padding-bottom: 24px;
+    font-size: 2em;
+}
+
+.newsletter-subtitle {
+    font-size: 16px;
+}
+
+.padd-70-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.subscribe-form {
+    width: 100%;
+}
+
+.subscribe-form .form-control {
+    border-radius: 0px;
+}
+
+.subscribe-form button {
+    border: 2px solid #e4a228;
+    background: #e4a228;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 0.4em;
+}
+
+
+/*-----------------------------------------------------------------footer----------------*/
+
+#footer{
+    text-align: center;
+
+
+
+}
+
+.footer-icon  {
+    margin: 25px 15px;
+    font-size: 16px;
+   color:#7c7c7c; 
+
+
+
+}
+
+@media (max-width:1030px){
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+    }
+    }
