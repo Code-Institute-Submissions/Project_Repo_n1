@@ -52,6 +52,7 @@ h4.ros{
     font-family: "Roboto";
     font-size:2rem;
     line-height: 1;
+     padding: 3% 15%; 
 }
 p{
     color:rgba(145, 90, 28, 0.856);
@@ -86,7 +87,15 @@ color:rgba(145, 90, 28, 0.856);
 /*---------------------------------------------------------Buttons style*/
 .download{
     margin: 5% 4% 5% 0;
+    
 }
+.fa-download{
+    color:#ecc78ef1;
+}
+.download a{
+    color:darkred;
+}
+
 /*---------------------------------------------------------Title image style*/
 .title-img{
     width: 60%;
@@ -136,48 +145,51 @@ color:#cf4358;
 .carousel-item{
 padding: 8% 16%;
 }
-/*.retail-link-ester a {
-    padding-block-end:1rem;
+.retail-link-ester a {
+   padding:8% 16%;
      margin: 5% 4% 5% 0;
-     
-     font-family: "Exo-black";
-     font-size: 2rem;
+    display: block;
+    font-family: "Exo-black";
+     font-size: 1.3rem;
      text-align: center;
      background-color:rgba(111, 119, 5, 0.897);
-     color: #F8F7C3
+     color: #F8F7C3;
 }
 .retail-link-chrismas a{
      margin: 5% 4% 5% 0;
-     
+     display: block;
      font-family: "Exo-black";
-     font-size: 2rem;
+    font-size: 1.3rem;
      text-align: center;
-     background-color:rgb(126, 61, 18);
-       color: #F8F7C3
+     background-color:#cf4358;
+       color: #F8F7C3;
+        padding:8% 16%;
 }
 .retail-link-raket a{
      margin: 5% 4% 5% 0;
-     
+    display: block;
      font-family: "Exo-black";
-     font-size: 2rem;
+   font-size: 1.3rem;
      text-align: center;
       background-color:rgba(137, 56, 145, 0.877);
-        color: #F8F7C3
-     
+        color: #F8F7C3;
+    padding:8% 16%;
 }
 .retail-link-tipptapp a{
      margin: 5% 4% 5% 0;
-     
+     display: block;
      font-family: "Exo-black";
-     font-size: 2rem;
+    font-size: 1.3rem;
      text-align: center;
    background-color:rgba(138, 56, 8, 0.973);
-     color: #F8F7C3
+     color: #F8F7C3;
+      padding:8% 16%;
 }
 
-.retail-link a i:hover{
-color:#cf4358
-}*/
+div.link-item a:hover{
+color:#f7f312;
+}
+/*
 .retail-link-ester
 {
     background-color:rgba(111, 119, 5, 0.897);
@@ -195,25 +207,37 @@ color:#cf4358
 {
      background-color:rgba(138, 56, 8, 0.973);
 }
-
+*/
 .link-item{
     height: 120px;
+width: 180px;
     text-align: center;
     padding: 0;
+    
 }
-div.linka{
+/*
+ .link-item a[href^="#"]{
     width: 100%;
     text-decoration: none;
-    color: #fff;
-    height: 120px;
+      height: 500px;
+    background-color:darksalmon;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    font-weight: bold;
+    line-height: 20px;
+   /* display: block;*/
+    /*font-family: "Exo-black";
+  /*text-shadow: 4px 4px 3px #77f;*/
+ /*   
 }
-div.linki {
-    padding-top: 22px;
+
+ .link-item.egg.pask {
+    padding-top: 40px;
     display: block;
-    font-size: 26px;
-    color:#F8F7C3;
-     font-family: "Exo-black";
-     
+    font-size: 40px;
+    color: #F8F7C3;
+    font-family: "Exo-black";*/
+
 }
 /*--------------------------------------------Lyx-Logo-----------*/
 
