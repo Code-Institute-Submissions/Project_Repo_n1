@@ -154,6 +154,7 @@ padding: 8% 16%;
      text-align: center;
      background-color:rgba(111, 119, 5, 0.897);
      color: #F8F7C3;
+        text-decoration: none;
 }
 .retail-link-chrismas a{
      margin: 5% 4% 5% 0;
@@ -164,6 +165,7 @@ padding: 8% 16%;
      background-color:#cf4358;
        color: #F8F7C3;
         padding:8% 16%;
+        text-decoration: none;
 }
 .retail-link-raket a{
      margin: 5% 4% 5% 0;
@@ -174,6 +176,7 @@ padding: 8% 16%;
       background-color:rgba(137, 56, 145, 0.877);
         color: #F8F7C3;
     padding:8% 16%;
+        text-decoration: none;
 }
 .retail-link-tipptapp a{
      margin: 5% 4% 5% 0;
@@ -184,6 +187,8 @@ padding: 8% 16%;
    background-color:rgba(138, 56, 8, 0.973);
      color: #F8F7C3;
       padding:8% 16%;
+        text-decoration: none;
+      
 }
 
 div.link-item a:hover{
@@ -216,6 +221,9 @@ width: 180px;
     
 }
 /*
+
+
+
  .link-item a[href^="#"]{
     width: 100%;
     text-decoration: none;
@@ -236,9 +244,9 @@ width: 180px;
     display: block;
     font-size: 40px;
     color: #F8F7C3;
-    font-family: "Exo-black";*/
+    font-family: "Exo-black";
 
-}
+}*/
 /*--------------------------------------------Lyx-Logo-----------*/
 
 #lyx-logo{
