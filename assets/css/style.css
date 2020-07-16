@@ -98,7 +98,8 @@ color:rgba(145, 90, 28, 0.856);
 
 /*---------------------------------------------------------Title image style*/
 .title-img{
-    width: 60%;
+    width: 100%;
+    height: auto;
     right: 30%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -247,6 +248,107 @@ width: 180px;
     font-family: "Exo-black";
 
 }*/
+/*--------------------------------------------Retailer_product----------------------------------------------*/
+
+.retail_img_rocket {
+   
+  background: url("../images/choco R.png");
+    display: inline;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
+.heading {
+    margin-left: 50px;
+}
+
+.bg-color-name-info{
+    background-color: #9c9393;
+
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #F8F7C3;
+}
+
+.info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color:rgba(138, 56, 8, 0.973);
+}
+
+.retail_img_product{
+  
+    display: inline;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  max-width:100%;
+  max-height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.info_img_retail{
+    padding: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+    font-weight: 20px;
+    font-size: 15px;
+   
+ 
+    color:rgba(138, 56, 8, 0.973);
+}
 /*--------------------------------------------Lyx-Logo-----------*/
 
 #lyx-logo{
@@ -293,6 +395,7 @@ background-color:#ecc78ef1;
 #newsletter{
 
 background-color:#cf4358;
+
 color:#f8f8f8;
 padding: 8% 16%;
 text-align: center;
