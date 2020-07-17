@@ -262,7 +262,17 @@ width: 180px;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
+.retail_img_tiptap{
+    background: url("../images/tiptap.png");
+    display: inline;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
 
 .heading {
@@ -391,6 +401,19 @@ background-color:#ecc78ef1;
     padding: 3% 2%;
 }
 
+.pricing_order{
+
+background-color: #F8F7C3;
+
+color:#4B2601;
+
+
+}
+
+a.pricing_order {
+   color:#4B2601; 
+   text-decoration: none;
+}
 /*---------------------------------------------------newsletter----------*/
 #newsletter{
 
