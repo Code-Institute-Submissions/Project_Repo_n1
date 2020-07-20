@@ -250,6 +250,7 @@ width: 180px;
 }*/
 /*--------------------------------------------Retailer_product----------------------------------------------*/
 
+
 .retail_img_rocket {
    
   background: url("../images/choco R.png");
@@ -257,7 +258,7 @@ width: 180px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 260px;
+    min-height: 230px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -268,12 +269,15 @@ width: 180px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
+    min-height: 260px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
+header {
+    margin: 0;
+}
 
 .heading {
     margin-left: 50px;
@@ -300,17 +304,18 @@ width: 180px;
     margin-bottom: 90px;
     color:rgba(138, 56, 8, 0.973);
 }
-
+/
 .retail_img_product{
   
-    display: inline;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 250px;
+     flex-grow: 1;
+    object-fit:contain;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+/*
+.card-body{
+    flex-grow:0;
 }
 /*
 .list-inline-item:not(:last-child) {
@@ -325,39 +330,45 @@ width: 180px;
     font-size: 14px;
     padding: 0;
 }
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
 */
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  max-width:100%;
-  max-height: auto;
-}
-
+/*
 div.desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
-
+*/
 
 .info_img_retail{
     padding: 15px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-black", sans-serif;
     font-weight: 20px;
-    font-size: 15px;
+    font-size: 20px;
    
  
     color:rgba(138, 56, 8, 0.973);
+}
+.title-color-gallery{
+    color:#DA0B0E;
 }
 /*--------------------------------------------Lyx-Logo-----------*/
 
@@ -459,7 +470,19 @@ text-align: center;
     width: 100%;
     padding: 0.4em;
 }
-
+/*
+.Masoud_img{
+     background: url("../images/Masoud.png");
+    display: inline;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+     
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
 /*-----------------------------------------------------------------footer----------------*/
 
