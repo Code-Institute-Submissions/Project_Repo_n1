@@ -222,33 +222,7 @@ width: 180px;
     padding: 0;
     
 }
-/*
 
-
-
- .link-item a[href^="#"]{
-    width: 100%;
-    text-decoration: none;
-      height: 500px;
-    background-color:darksalmon;
-    font-size: 1.5rem;
-    padding-bottom: 30px;
-    font-weight: bold;
-    line-height: 20px;
-   /* display: block;*/
-    /*font-family: "Exo-black";
-  /*text-shadow: 4px 4px 3px #77f;*/
- /*   
-}
-
- .link-item.egg.pask {
-    padding-top: 40px;
-    display: block;
-    font-size: 40px;
-    color: #F8F7C3;
-    font-family: "Exo-black";
-
-}*/
 /*--------------------------------------------Retailer_product----------------------------------------------*/
 
 
@@ -305,7 +279,7 @@ header {
     margin-bottom: 90px;
     color:rgba(138, 56, 8, 0.973);
 }
-/
+
 .retail_img_product{
   
      flex-grow: 1;
@@ -314,49 +288,8 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-/*
-.card-body{
-    flex-grow:0;
-}
-/*
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
 
-.menucontainer {
-    font-size: 0;
-}
 
-#nav li {
-    font-size: 14px;
-    padding: 0;
-}
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-}
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    height: 120px;
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-*/
-/*
-div.desc {
-  padding: 10px;
-  text-align: center;
-}
-*/
 
 .info_img_retail{
     padding: 15px;
