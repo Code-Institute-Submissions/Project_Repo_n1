@@ -5,7 +5,8 @@ header {
     margin: 0;
 }
 body{
-    font-family:"Roboto"; 
+    
+      font-family:"Roboto"; 
 }
 
 #title{    background-color:#cf4358;
@@ -392,9 +393,9 @@ background-color:#ecc78ef1;
   height:100px;
   background-color: #FBF71C;
   padding-top: 15px;
-  padding-right: 15px;
-    bottom: 40px;
-  left: 40px;
+  padding-right: 30px;
+    bottom: 46px;
+  left: 35px;
   transform: rotate(25deg);
   position: absolute;
  color:#4B2601;
